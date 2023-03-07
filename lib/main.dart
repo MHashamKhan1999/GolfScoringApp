@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:golfscoringmobileapp/pages/homepage/loginPage.dart';
+import 'package:golfscoringmobileapp/pages/homepage/sign_up.dart';
 import 'package:golfscoringmobileapp/pages/instuctions/instruction.dart';
 import 'package:golfscoringmobileapp/pages/mainpage/club_slection.dart';
 import 'package:golfscoringmobileapp/pages/mainpage/first_screen.dart';
@@ -36,8 +37,8 @@ class MyApp extends StatelessWidget {
       // home: loginPage(),
       // home: Instruction(),
       // home: HowToUse(),
-      home: ClubSelection(),
-      // home: FirstPage(),
+      // home: ClubSelection(),
+      home: FirstPage(),
     );
   }
 }
